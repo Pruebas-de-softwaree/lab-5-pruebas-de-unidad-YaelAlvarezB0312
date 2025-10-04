@@ -19,5 +19,5 @@ class Book:
         self.borrowed = False
 
 if __name__ == "__main__":
-    libro=book("El racismo de Mischa", "Aly", "2024", "isbn0001")
-    libro.borrow()
+    libro=Book("El racismo de Mischa", "Aly", "2024", "isbn0001")
+    libro.return_book()
